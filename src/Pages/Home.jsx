@@ -24,7 +24,7 @@ const Home = () => {
             <img
               src="/images/heroImage.webp"
               alt="hero image"
-              className="min-w-full min-h-full"
+              className="w-full h-full"
             />
           </div>
         </div>

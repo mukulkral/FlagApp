@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { IoMdMenu } from "react-icons/io";
 import Sidebar from "./Sidebar";
 
+
+
 const Header = () => {
   const [show, setShow] = useState(false);
   const toggleMenu = () => {
@@ -22,22 +24,25 @@ const Header = () => {
           </Link>
           <ul className="hidden md:flex justify-center items-center gap-2 ">
             <Link to="/">
-              <li className="cursor-pointer hover:text-black duration-150 hover:bg-white px-4 py-1 rounded-md">
+              <li className="cursor-pointer hover:text-black duration-150 hover:bg-white px-6 py-1 rounded-[20px]">
                 Home
+               
+
               </li>
+         
             </Link>
             <Link to="/about">
-              <li className="cursor-pointer hover:text-black duration-150 hover:bg-white px-4 py-1 rounded-md">
+              <li className="cursor-pointer hover:text-black duration-150 hover:bg-white px-6 py-1 rounded-[20px]">
                 About
               </li>
             </Link>
             <Link to="/country">
-              <li className="cursor-pointer hover:text-black duration-150 hover:bg-white px-4 py-1 rounded-md">
+              <li className="cursor-pointer hover:text-black duration-150 hover:bg-white px-6 py-1 rounded-[20px]">
                 Country
               </li>
             </Link>
             <Link to="/contact">
-              <li className="cursor-pointer hover:text-black duration-150 hover:bg-white px-4 py-1 rounded-md">
+              <li className="cursor-pointer hover:text-black duration-150 hover:bg-white px-6 py-1 rounded-[20px]">
                 Contact
               </li>
             </Link>
